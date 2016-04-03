@@ -1,0 +1,27 @@
+Thoughts about what things I will posting on my blog.
+
+1. How I made my jrdbase application - generic base for Scaffolding of Web Application
+	a) How I customize JHhipter generated code to meet my requirements.
+		- enable sending e-mails
+		- add polish language translations
+		- do small customizations to user interface
+	b) How I ddd custom role / authorities management system. Roles should be dynamicly managed when application is running.
+		- add database infrastructure for roles
+		- add UI forms for CRUD do roles and change permissions.
+		- connect visibility of UI elements with corresponding roles - possibility of dynamicly changing this visibility 
+		  when changing reles and assigment users to roles.
+
+2. How I transform my jrdbase application into full functional blog application.
+	a) Possible simple script which translates all possible constants into new values (ex.: name of application, database name, etc.)
+		- written in JavaScript or Bash or Python
+	b) Add roles for writers and readers.
+		- writers can publish articles
+		- readers can rate articles and publish comments
+	c) Add tag and search subsystem
+	d) Customize UI to meet blog application requirements (add menu, etc, "tags cloud", search bar)
+
+3. How I transformmy jrdbase application into publishing house application. (further perspective)
+
+4. How to build vacation requests and vaacation planning application.
+
+	
